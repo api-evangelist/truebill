@@ -1,4 +1,16 @@
 aid: truebill
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truebill.png
 name: Truebill
 description: 'Truebill is a company surfaced as a portfolio company of accel, bessemer-venture-partners,
   y-combinator and added to the API Evangelist network as a stub for enrichment. Sector: payments. This
@@ -12,9 +24,12 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebranded-to: Rocket Money (https://www.rocketmoney.com/)
+x-no-public-api: true
+x-no-public-api-evidence: 'truebill.com 301-redirects to rocketmoney.com; developer.rocketmoney.com/developers.rocketmoney.com/docs.rocketmoney.com/developer.truebill.com all NXDOMAIN; api.rocketmoney.com, api.truebill.com, /developers, /api all HTTP 404; no /.well-known/security.txt|openid-configuration|ai-plugin.json|api-catalog (all 404). Consumer personal-finance app, no public developer API surface. Probed 2026-07-21.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Payments
@@ -27,3 +42,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.truebill.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
