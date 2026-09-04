@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.truebill.com/', status: 301, note: 'declared website redirects to https://www.rocketmoney.com/ — a different registrable domain (truebill.com -> rocketmoney.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/truebill.png
 name: Truebill
 description: 'Truebill is a company surfaced as a portfolio company of accel, bessemer-venture-partners,
